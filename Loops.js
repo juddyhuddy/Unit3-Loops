@@ -12,7 +12,11 @@
 // Use a for loop and .push() to build the array one number at a time.
 function getNumbersInRange(start, end) {
   // TODO: your code here
-
+  let numbers =[];
+  for (let number = start; number <= end ; number++) {
+    numbers.push(number);
+  }
+    return numbers;
 }
 
 console.log(getNumbersInRange(1, 5));  // [1, 2, 3, 4, 5]
@@ -25,7 +29,10 @@ console.log(getNumbersInRange(3, 8));  // [3, 4, 5, 6, 7, 8]
 // Use the accumulator pattern: let total = 0; total += i; each pass.
 function sumRange(start, end) {
   // TODO: your code here
-
+let total = 0
+for (let number = start; number <= end ; number ++) {
+  total += number;
+}return total;
 }
 
 console.log(sumRange(1, 5));   // 15
