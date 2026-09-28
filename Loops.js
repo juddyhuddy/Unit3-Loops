@@ -66,7 +66,15 @@ console.log(countdown(8)); // [8, 7, 6, 5, 4, 3, 2, 1]
 // str[i] or str.charAt(i).
 function countVowels(str) {
   // TODO: your code here
+// 
+let vowelcount = 0;
+const vowels = "aeiou";
 
+for (let i = 0; i < str.length; i++) {
+        const char = str[i];
+        if (vowels.includes(char)) {
+          vowelcount++;}
+}return vowelcount;
 }
 
 console.log(countVowels("hello"));      // 2
