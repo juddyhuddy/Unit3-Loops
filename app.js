@@ -15,4 +15,4 @@ function slotmachines(q,a,b,c){
         }
     }return String(plays)
 }
-console.log("Martha plays " + slotmachines(48,3,10,4) + " times before going broke")
+console.log("Martha plays " + slotmachines(77,4,9,3) + " times before going broke")
