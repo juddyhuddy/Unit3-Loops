@@ -90,9 +90,13 @@ console.log(countVowels("aeiou"));      // 5
 // build each row as its own string before adding it to the result.
 function multiplicationTable(n) {
   // TODO: your code here
-
+let table = ""
+ for (let row = 1; row <= n; row ++){
+  for (let column = 1; column <= n; column ++){
+    table = table + " " + (row * column);
+  }table = table + "\n";
+} return table
 }
-
 console.log(multiplicationTable(3));
 // "1 2 3\n2 4 6\n3 6 9"
 console.log(multiplicationTable(5));
