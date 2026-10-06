@@ -21,8 +21,8 @@ function wizard(n,start,duels){
     let owner = start;
     let times = 1;
     console.log(duels[0][0]);
-    for(let i = 0; i<n, i++;) {
-        const duel = duels[index];
+    for(let i = 0; i<n; i++) {
+        const duel = duels[i];
 
         const winner = duel[0];
         const loser = duel[1];
@@ -37,7 +37,7 @@ function wizard(n,start,duels){
         owner = winner;
         times++;
 
- } return owner,times;
+ } return{owner,times;}
 }
 
-function wizard(A,3, BA, CB, DA)
+function wizard(3, "A", [["B","A"],["C","B"],["D","C"]])
