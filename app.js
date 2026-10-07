@@ -37,7 +37,8 @@ function wizard(n,start,duels){
         owner = winner;
         times++;
 
- } return{owner,times;}
+ } return{owner,times};
 }
 
-function wizard(3, "A", [["B","A"],["C","B"],["D","C"]])
+const result = wizard(3, "A", [["B","A"],["C","B"],["D","C"]]);
+console.log(result);
